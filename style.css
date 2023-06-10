@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+  margin: 10rem auto;
+  width: 60rem;
+  height: 40rem;
+  border-radius: 9px;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+span {
+  display: inline-block;
+}
+
+.product-img {
+  background-image: url("images/image-product-desktop.jpg");
+  background-size: cover;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+
+.product-details {
+  background-color: #fff;
+  height: 100%;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  padding: 3.2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.product-name {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 0.7rem;
+  font-family: "Montserrat", "Sans-serrif";
+  font-weight: 500;
+}
+
+.perfume-name {
+  font-size: 3.2rem;
+  line-height: 2.8rem;
+  font-family: "Fraunces", "Sans-serrif";
+}
+
+.description {
+  margin-top: 1.2rem;
+  color: #888;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-family: "Montserrat", "Sans-serrif";
+}
+
+.price {
+  margin-top: 1.2rem;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.new-price {
+  font-size: 2.8rem;
+  font-family: "Fraunces", "Sans-serrif";
+  color: hsl(158, 36%, 37%);
+}
+
+.old-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  color: #888;
+  text-decoration: line-through;
+}
+
+.btn {
+  margin-top: 1.2rem;
+  width: 100%;
+  background-color: hsl(158, 36%, 37%);
+  padding: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  font-family: "Montserrat", "Sans-serrif";
+  border-radius: 7px;
+  transition: all 0.4s;
+}
+
+.btn-cart:link,
+.btn-cart:visited {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+.cart-icon {
+  stroke: #fff;
+  font-size: 1.8rem;
+}
+
+.btn:hover {
+  background-color: hsl(157, 30%, 31%);
+}
+
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */

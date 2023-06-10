@@ -1,0 +1,25 @@
+@media (max-width: 23em) {
+  .container {
+    width: 30em;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .product-img {
+    background-image: url("images/image-product-mobile.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 25rem;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 0;
+    grid-row: 1;
+  }
+
+  .product-details {
+    border-bottom-left-radius: 9px;
+    border-top-right-radius: 0;
+  }
+}
